@@ -17,7 +17,7 @@ while(True):
             break
         elif (keyin < randomNum):
             print("再大一點!!!")
-            min = keyin+1
+            min = keyin +1
         elif (keyin > randomNum):
             print("再小一點!!!")
             max = keyin -1 
@@ -25,5 +25,4 @@ while(True):
     is_play = pyip.inputYesNo("您還要繼續玩嗎?(輸入Yes, No)")
     if is_play=="no":
         break
-
 print("遊戲結束!!!")
