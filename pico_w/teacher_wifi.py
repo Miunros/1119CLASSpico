@@ -1,8 +1,8 @@
 import time
 import network
 
-ssid = 'yioyioman'
-password = '0912886806'
+ssid = 'iPhoneNancy'
+password = '22222222'
 
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
