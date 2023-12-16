@@ -1,7 +1,7 @@
 import time
 import network
 
-ssid = 'iPhoneNancy'
+ssid = 'Iamnancy'
 password = '22222222'
 
 wlan = network.WLAN(network.STA_IF)
