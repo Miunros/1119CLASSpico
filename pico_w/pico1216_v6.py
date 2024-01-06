@@ -1,7 +1,7 @@
 import time
 import network
 
-ssid = 'Iamnancy'
+ssid = 'NancyHsu'
 password = '22222222'
 
 wlan = network.WLAN(network.STA_IF)
@@ -22,7 +22,7 @@ while max_wait > 0:
     print("等待連線")
     time.sleep(1)
 
-#處理錯誤
+#檢查目前連線狀態
 if wlan.status() != 3:
     raise RuntimeError('連線失敗')
 else:
