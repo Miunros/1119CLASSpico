@@ -15,7 +15,7 @@ def alert(t:float):
     minites = date_tuple[5]
     second = date_tuple[6]
     date_str = f'{year}-{month}-{day} {hour}:{minites}:{second}'
-    get_url = f'https://hook.us1.make.com/tw20asr31id34dhmjlaf1usu162hw758?name=我家雞場&date={date_str}&temperature={t}'
+    get_url = f'https://hook.us1.make.com/tw20asr31id34dhmjlaf1usu162hw758?name=致理科技大學&date={date_str}&temperature={t}'
     try:
         response = requests.get(get_url)
     except:
