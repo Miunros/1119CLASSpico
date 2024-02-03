@@ -28,9 +28,9 @@ connect()
 light = ADC(Pin(28))
 led_red = Pin(15, mode=Pin.OUT)
 vr = ADC(Pin(27))
-timer10 = Timer(period=500, mode=Timer.PERIODIC, callback=fun10)
+timer10 = Timer(period=10000, mode=Timer.PERIODIC, callback=fun10)
 timer500ms = Timer(period=500, mode=Timer.PERIODIC, callback=fun500ms)
-
+fun10()
 
 
 #led_red = Pin(15, mode=Pin.OUT)
