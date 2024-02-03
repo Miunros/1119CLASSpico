@@ -1,0 +1,5 @@
+requests
+streamlit
+pandas
+streamlit-autorefresh
+python-dotenv
