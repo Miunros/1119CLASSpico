@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import time
 import requests
 
 #st.write('Hello, Nancy :sunglasses:')
@@ -8,6 +9,9 @@ st.title('群輝商務科技的雞舍')
 st.header(':blue[pico專案1] :red[溫度] :violet[濕度]',divider='rainbow')
 #st.snow()
 st.balloons()
+with st.spinner('Wait for it...'):
+    time.sleep(3)
+st.success('Done!')
 
 url='https://blynk.cloud/external/api/get?token=OjsaRz73dEbe7wlmUomfBRB38u8kSMj6&v1&v0'
 
